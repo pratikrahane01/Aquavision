@@ -1,0 +1,69 @@
+# ==============================================================================
+# AquaVision - Git Ignore Configuration
+# ==============================================================================
+
+# Virtual Environments
+venv/
+.venv/
+env/
+myenv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribution & Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Large Datasets & Archives
+train/
+valid/
+test/
+roboflow.zip
+*.zip
+*.tar.gz
+*.rar
+
+# Model Checkpoints (Ignore intermediate weights, track only production best.pt)
+*.pt
+!weights/best.pt
+yolo11n.pt
+
+# Training runs & local experiment logs
+runs/
+prediction_results/
+sample_outputs/test_run/
+
+# Root loose development files (preserved locally, excluded from repository root)
+/train.py
+/evaluate.py
+/predict.py
+/images (1).jpg
+/README.dataset.txt
+/README.roboflow.txt
+
+# Secrets, Environment Variables & API Keys
+.env
+.env.*
+*.pem
+*.key
+*.token
+credentials.json
+
+# IDE & OS-Specific Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+.gemini/

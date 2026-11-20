@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['can', 'foam', 'plastic', 'plastic bottle', 'unknow']
+
+roboflow:
+  workspace: aqua-vision-0whs7
+  project: plastic_waste-tqfvh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aqua-vision-0whs7/plastic_waste-tqfvh/dataset/1

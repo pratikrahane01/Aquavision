@@ -186,7 +186,7 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright 2026 Pratik Rahane
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -199,3 +199,22 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+--------------------------------------------------------------------------------
+THIRD-PARTY LICENSES AND INTELLECTUAL PROPERTY NOTICES
+--------------------------------------------------------------------------------
+1. Ultralytics YOLO:
+   The underlying YOLO11 architecture and training framework are developed by
+   Ultralytics and licensed under the GNU Affero General Public License v3.0
+   (AGPL-3.0) or commercial enterprise licenses. For more information, visit
+   https://github.com/ultralytics/ultralytics.
+
+2. Dataset Attribution:
+   The dataset comprises images sourced from Roboflow Universe (aqua-vision-0whs7 /
+   plastic_waste-tqfvh), Kaggle open repositories, and custom collected river
+   imagery. The Roboflow dataset is licensed under Creative Commons Attribution
+   4.0 International (CC BY 4.0).
+
+The Apache License 2.0 applies strictly to the custom source code, documentation,
+and configuration files authored within the AquaVision project repository.
+
